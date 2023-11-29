@@ -18,7 +18,7 @@ highlight Normal                      ctermbg=none
 highlight Comment	    ctermfg=21
 " highlight Comment	    ctermfg=165
 highlight Statement     ctermfg=200
-highlight Constant	    ctermfg=99
+highlight Constant	    ctermfg=165
 highlight Identifier    ctermfg=27                 cterm=none
 highlight PreProc	    ctermfg=57
 highlight Special	    ctermfg=243
