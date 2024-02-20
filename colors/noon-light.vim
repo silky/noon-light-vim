@@ -24,7 +24,7 @@ highlight PreProc	    ctermfg=57
 highlight Special	    ctermfg=243
 
 highlight StatusLine    ctermfg=160   ctermbg=229  cterm=none
-highlight StatusLineNC  ctermfg=160   ctermbg=250  cterm=none
+highlight StatusLineNC  ctermfg=60    ctermbg=255  cterm=none
 highlight VertSplit     ctermfg=229   ctermbg=229
 
 highlight Todo		    ctermfg=none  ctermbg=229
