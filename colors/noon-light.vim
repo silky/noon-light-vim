@@ -16,12 +16,12 @@ let g:colors_name = "noon-light"
 highlight Normal                      ctermbg=none
 
 highlight Comment	    ctermfg=21
-highlight Statement     ctermfg=200 cterm=italic
+highlight Statement     ctermfg=200   cterm=none
 highlight Constant	    ctermfg=165
 highlight Identifier    ctermfg=27                 cterm=none
 highlight PreProc	    ctermfg=57
 highlight Special	    ctermfg=243
-highlight String        ctermfg=21
+highlight String        ctermfg=164   cterm=italic
 
 highlight StatusLine    ctermfg=160   ctermbg=229  cterm=none
 highlight StatusLineNC  ctermfg=60    ctermbg=255  cterm=none
@@ -34,8 +34,6 @@ highlight MatchParen    ctermbg=229
 
 highlight LineNr        ctermfg=246
 highlight CursorLineNr  ctermfg=246
-
-
 
 highlight Type		 ctermfg=93
 highlight Error					ctermbg=9							guibg=#ff0000
@@ -57,11 +55,3 @@ highlight MyTagListFileName guifg=#e01b4c
 " MiniBufExplorer
 
 highlight MBEVisibleChangedActive guifg=#e01b4c
-
-" vimwiki
-highlight Title gui=none guifg=#e4cb14
-highlight Underlined guifg=#e01b63
-
-
-" Literate Haskell
-highlight lhsBirdTrack guifg=#c000db
