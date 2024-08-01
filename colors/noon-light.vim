@@ -16,18 +16,18 @@ let g:colors_name = "noon-light"
 highlight Normal                      ctermbg=none
 
 highlight Comment	    ctermfg=21
-" highlight Comment	    ctermfg=165
-highlight Statement     ctermfg=200
+highlight Statement     ctermfg=200 cterm=italic
 highlight Constant	    ctermfg=165
 highlight Identifier    ctermfg=27                 cterm=none
 highlight PreProc	    ctermfg=57
 highlight Special	    ctermfg=243
+highlight String        ctermfg=21
 
 highlight StatusLine    ctermfg=160   ctermbg=229  cterm=none
 highlight StatusLineNC  ctermfg=60    ctermbg=255  cterm=none
 highlight VertSplit     ctermfg=229   ctermbg=229
 
-highlight Todo		    ctermfg=none  ctermbg=229
+highlight Todo		    ctermfg=none  ctermbg=229 cterm=italic
 highlight Visual        ctermfg=0     ctermbg=111
 highlight Search	    ctermfg=0     ctermbg=209
 highlight MatchParen    ctermbg=229
