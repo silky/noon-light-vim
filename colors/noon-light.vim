@@ -27,6 +27,8 @@ highlight StatusLine    ctermfg=160   ctermbg=229  cterm=none
 highlight StatusLineNC  ctermfg=60    ctermbg=255  cterm=none
 highlight VertSplit     ctermfg=229   ctermbg=229
 
+highlight ModeMsg       ctermfg=249
+
 highlight Todo		    ctermfg=none  ctermbg=229 cterm=italic
 highlight Visual        ctermfg=0     ctermbg=111
 highlight Search	    ctermfg=0     ctermbg=209
