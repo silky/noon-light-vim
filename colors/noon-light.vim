@@ -3,7 +3,7 @@
 "
 " By:  Noon Silk <noonsilk@gmail.com>
 "
-" https://jonasjacek.github.io/colors/
+" https://robotmoon.com/256-colors/
 
 hi clear
 set background=light
@@ -16,12 +16,15 @@ let g:colors_name = "noon-light"
 highlight Normal                      ctermbg=none
 
 highlight Comment	    ctermfg=21
-highlight Statement     ctermfg=200   cterm=none
+highlight Statement     ctermfg=243   cterm=none
+" highlight Statement     ctermfg=200   cterm=none
 highlight Constant	    ctermfg=165
 highlight Identifier    ctermfg=27                 cterm=none
 highlight PreProc	    ctermfg=57
 highlight Special	    ctermfg=243
-highlight String        ctermfg=164   cterm=italic
+highlight String        ctermfg=201   cterm=italic
+" highlight String        ctermfg=164   cterm=italic
+highlight Operator      ctermfg=244
 
 highlight StatusLine    ctermfg=160   ctermbg=229  cterm=none
 highlight StatusLineNC  ctermfg=60    ctermbg=255  cterm=none
