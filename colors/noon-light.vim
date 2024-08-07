@@ -39,7 +39,7 @@ highlight CurSearch	    ctermfg=0     ctermbg=121
 highlight MatchParen    ctermbg=229   cterm=underline
 
 highlight LineNr        ctermfg=246
-highlight CursorLineNr  ctermfg=246
+highlight CursorLineNr  ctermfg=10    cterm=none
 
 highlight Type		 ctermfg=93
 highlight Error					ctermbg=9							guibg=#ff0000
