@@ -33,7 +33,7 @@ highlight VertSplit     ctermfg=229   ctermbg=229
 highlight ModeMsg       ctermfg=249
 
 highlight Todo		    ctermfg=none  ctermbg=229 cterm=italic
-highlight Visual        ctermfg=0     ctermbg=111
+highlight Visual        ctermfg=0     ctermbg=224
 highlight Search	    ctermfg=0     ctermbg=121
 highlight CurSearch	    ctermfg=0     ctermbg=121
 highlight MatchParen    ctermbg=229   cterm=underline
