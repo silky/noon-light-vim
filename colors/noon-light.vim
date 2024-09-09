@@ -11,7 +11,7 @@ hi CurSearch guibg=#87ffaf guifg=#444444 gui=underdotted
 
 " Screen-line at the cursor, when 'cursorline' is set. Low-priority if
 " foreground (ctermfg OR guifg) is not set.
-hi clear CursorLine
+hi CursorLine guibg=none
 
 " Directory names (and other special names in listings)
 hi Directory guifg=#5f00ff
