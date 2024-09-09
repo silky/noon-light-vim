@@ -41,7 +41,7 @@ hi Normal guibg=#fff7f1 guifg=#444444
 
 " Last search pattern highlighting (see 'hlsearch'). Also used for similar
 " items that need to stand out.
-hi Search guibg=#87ffaf
+hi Search guibg=#87ffaf guifg=#444444
 
 " Status line of current window
 hi clear StatusLine
