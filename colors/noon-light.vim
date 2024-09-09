@@ -84,7 +84,7 @@ hi Type guifg=#c71eff
 
 " (*) Any special symbol
 hi clear Special
-hi Special guifg=#ebab34
+hi Special guifg=#ff005f
 
 hi Question guifg=#ebab34
 
