@@ -11,7 +11,7 @@ hi CurSearch guibg=#87ffaf guifg=#444444 gui=underdotted
 
 " Screen-line at the cursor, when 'cursorline' is set. Low-priority if
 " foreground (ctermfg OR guifg) is not set.
-" hi clear CursorLine
+hi clear CursorLine
 
 " Directory names (and other special names in listings)
 hi Directory guifg=#5f00ff
@@ -98,7 +98,7 @@ hi Underlined gui=underline
 hi Error guibg=#ff8a9a
 
 " Anything that needs extra attention; mostly the keywords TODO FIXME and XXX
-hi Todo guibg=#ffffaf gui=italic
+hi Todo guibg=#ffffaf gui=italic guifg=#4a4a4a
 
 " Plugins
 "
