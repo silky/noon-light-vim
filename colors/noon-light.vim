@@ -86,7 +86,8 @@ hi Type guifg=#c71eff
 hi clear Special
 hi Special guifg=#ff005f
 
-hi Question guifg=#ebab34
+" Sometimes vim asks a question
+hi Question guifg=#ff005f
 
 " Special character in a constant
 hi clear SpecialChar
@@ -103,4 +104,7 @@ hi Todo guibg=#ffffaf gui=italic guifg=#4a4a4a
 " Plugins
 "
 " ~ telescope.nvim
-hi TelescopeSelection guibg=#ffebb5
+hi TelescopeSelection guibg=#ffebb5a
+
+" ~ EasyMotion
+hi EasyMotionTargetDefault gui=underdotted guibg=#ffffaf
