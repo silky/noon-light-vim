@@ -99,6 +99,9 @@ hi Underlined gui=underline
 " Any erroneous construct
 hi Error guibg=#ff8a9a
 
+" Vim-style errors
+hi ErrorMsg guifg=#ff6075
+
 " Anything that needs extra attention; mostly the keywords TODO FIXME and XXX
 hi Todo guibg=#ffffaf gui=italic guifg=#4a4a4a
 
