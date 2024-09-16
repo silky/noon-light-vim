@@ -68,6 +68,7 @@ hi Identifier guifg=#005fff
 
 " Function name (also: methods for classes)
 hi clear Function
+hi Function guifg=#000000
 
 " (*) Any statement
 hi clear Statement
