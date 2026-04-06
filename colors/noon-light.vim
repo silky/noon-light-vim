@@ -85,7 +85,7 @@ hi Type guifg=#c71eff
 
 " (*) Any special symbol
 hi clear Special
-hi Special guifg=#ff005f
+hi Special guifg=#b56bfa
 
 " Sometimes vim asks a question
 hi Question guifg=#ff005f
